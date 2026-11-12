@@ -19,3 +19,7 @@ This program calculate the salary for employee depinding on the type of work(Ful
             P.pritnSalary();
 ```
 as you can see her i used equalsIgnoreCase so i include the all forms of inputs
+
+## Code Review
+ - **Reviewed by:** Arjo Rosato
+ - **Status:** Checked code. Fixed printSalary typo issue. :)
