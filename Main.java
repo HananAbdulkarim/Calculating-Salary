@@ -16,7 +16,7 @@ class fullTimeEmployee extends Employee {
         double salary= basePay+bonus;
         return salary;
     }
-    void pritnSalary(){
+    void printSalary(){
         System.out.println("Monthly Salary: $"+calculateSalary());
     }
 }
@@ -28,7 +28,7 @@ class partTimeEmployee extends Employee{
         double salary= hourlyRate*hoursWorked;
         return salary;
     }
-    void pritnSalary(){
+    void printSalary(){
         System.out.println("Monthly Salary: $"+calculateSalary());
     }
 }
@@ -50,7 +50,7 @@ public class Main {
             System.out.println("Enter bonus: $");
             F.bonus = input.nextDouble();
             F.calculateSalary();
-            F.pritnSalary();
+            F.printSalary();
         }
 
         if (type.equalsIgnoreCase(option2)) {
@@ -59,7 +59,7 @@ public class Main {
             System.out.println("Enter Hours Worked: ");
             P.hoursWorked = input.nextDouble();
             P.calculateSalary();
-            P.pritnSalary();
+            P.printSalary();
         }
     }
 }
